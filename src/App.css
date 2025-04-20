@@ -36,3 +36,104 @@
     transform: rotate(360deg);
   }
 }
+/* Tăng cường phần hiển thị diff */
+.d2h-wrapper {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  overflow: auto;
+}
+
+/* Định dạng các phần tử của dòng khác biệt */
+.d2h-diff-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.d2h-code-line {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  padding: 5px;
+}
+
+/* Màu sắc cho dòng bị xóa */
+.d2h-del {
+  background-color: #fdd;
+}
+
+.d2h-code-line-prefix {
+  color: #d32f2f;
+}
+
+/* Màu sắc cho dòng được thêm vào */
+.d2h-ins {
+  background-color: #d3ffd3;
+}
+
+.d2h-code-line-prefix {
+  color: #388e3c;
+}
+
+/* Hiển thị tag CHANGED */
+.d2h-changed-tag {
+  background-color: #ffeb3b;
+  color: black;
+  padding: 2px 8px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+/* Hiển thị số dòng */
+.d2h-code-linenumber {
+  text-align: center;
+  width: 40px;
+  background-color: #f1f1f1;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px;
+  border-right: 1px solid #ddd;
+}
+
+/* Tối ưu các button và checkbox */
+.d2h-file-collapse input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* Phần header của file */
+.d2h-file-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.d2h-file-name-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.d2h-file-name {
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.d2h-file-collapse {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+/* Tùy chỉnh icon */
+.d2h-icon {
+  fill: #00796b;
+}
+
+/* Làm nổi bật file name */
+.d2h-file-name {
+  color: #00796b;
+}
