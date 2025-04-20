@@ -9,6 +9,9 @@ export default function Home() {
                     <a href={"/qrcode"}><Button variant="outlined" color="primary">🏠 QR Code</Button></a>
                 </Grid>
                 <Grid item>
+                    <a href={"/comparetext"}><Button variant="outlined" color="primary">ℹ️ Compare Text</Button></a>
+                </Grid>
+                <Grid item>
                     <Button variant="outlined" color="secondary">ℹ️ About</Button>
                 </Grid>
                 <Grid item>

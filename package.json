@@ -10,6 +10,7 @@
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "diff2html": "^3.4.51",
     "qrcode.react": "^4.2.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
